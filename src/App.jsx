@@ -3,7 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import PortfolioTemplate from './PortfolioTemplate'
 import Home from './pages/Home'
-import About from './pages/About'
+import About from './components/About'
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
