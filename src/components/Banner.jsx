@@ -5,7 +5,7 @@ const Banner = () => {
     <>
     <section
         id='home'
-        className='max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 items-center gap-16'
+        className='max-w-7xl mx-auto px-6 py-7 lg:py-24 grid lg:grid-cols-2 items-center gap-16'
       >
         <div>
           <p className='text-gray-600 mb-3'>Hello, I’m</p>

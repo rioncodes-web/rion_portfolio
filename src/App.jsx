@@ -1,9 +1,9 @@
 
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import './App.css'
-import PortfolioTemplate from './PortfolioTemplate'
 import Home from './pages/Home'
 import About from './components/About'
+
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
@@ -17,7 +17,8 @@ function App() {
   return (
     <>
     <RouterProvider router={myRoute}/>
-    {/* <PortfolioTemplate/> */}
+
+
     </>
   )
 }
