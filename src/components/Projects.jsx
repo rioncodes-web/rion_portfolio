@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const Projects = () => {
 
@@ -16,10 +17,10 @@ const Projects = () => {
         'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop',
     },
     {
-      title: 'Dashboard UI',
-      desc: 'Admin dashboard with charts, analytics and clean interface.',
+      title: 'TODO List',
+      desc: 'A simple and intuitive task management application designed to help users capture daily goals, organize priorities, and track task progress effortlessly.',
       image:
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop',
+        'https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   ]
   
@@ -49,13 +50,13 @@ const Projects = () => {
                   <p className='text-gray-600 mt-4 leading-7'>{item.desc}</p>
 
                   <div className='flex gap-4 mt-6'>
-                    <button className='bg-white text-black px-5 py-2 rounded-full font-medium'>
+                    <Link to={'https://todo-list-azure-psi.vercel.app/'} className='bg-white text-black px-5 py-2 rounded-full font-medium'>
                       Live Demo
-                    </button>
+                    </Link>
 
-                    <button className='border border-white px-5 py-2 rounded-full'>
+                    <Link target='blank' to={'https://github.com/rioncodes-web/todo_List'} className='border border-white px-5 py-2 rounded-full'>
                       GitHub
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
