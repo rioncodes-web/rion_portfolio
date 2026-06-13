@@ -8,8 +8,8 @@ const Projects = () => {
       desc: "Modern responsive shopping website with cart and product details page.",
       image:
         "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://sutro-style.vercel.app/",
+      github: "https://github.com/rioncodes-web/sutro_style-update",
     },
     {
       title: "Multiplication table",
